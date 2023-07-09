@@ -3,7 +3,7 @@
 import { Sidebar } from 'flowbite-react';
 import { HiHome } from 'react-icons/hi';
 import{FaShoppingCart} from 'react-icons/fa'
-import {SiSimpleanalytics} from 'react-icons/si'
+import {MdAddShoppingCart} from 'react-icons/md'
 import {AiFillSetting} from 'react-icons/ai'
 
 export default function     SideBar() {
@@ -12,7 +12,7 @@ export default function     SideBar() {
       <Sidebar.Items>
         <Sidebar.ItemGroup>
           <Sidebar.Item
-            href=""
+            href="/"
             icon={HiHome}
           >
             <p>
@@ -28,11 +28,11 @@ export default function     SideBar() {
             </p>
           </Sidebar.Item>
           <Sidebar.Item
-            href="#"
-            icon={SiSimpleanalytics}
+            href="/add-product"
+            icon={MdAddShoppingCart}
           >
             <p>
-              Analytics
+              Add Product
             </p>
           </Sidebar.Item>
           <Sidebar.Item
